@@ -1,0 +1,88 @@
+/*coloring and sticking the topbar to the top*/
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+
+.topbarLogo{
+    flex: 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*coloring and sizing the KEEPSOCIAL logo*/
+.logo{
+    font-size: 24px;
+    margin-left: 20px; ;
+    font-weight: bold;
+    color: black;
+}
+
+.topbarSearch{
+    flex: 5;
+    
+}
+
+/*coloring and rounding the searchbar*/
+.searchbar{
+   width: 100%;
+   height: 30px;
+   background-color: white;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.searchIcon{
+    font-size: 25px !important;
+    margin-left: 10px;
+}
+
+.searchInput{
+    border: none;
+    width: 70%;
+    outline: none;
+}
+
+/*sizing and seperating the links*/
+.topbarLinks{
+    font-size: 25px;
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topbarIcons{
+    display: flex;
+    align-items: center;
+}
+
+.topbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topbarProfile{
+    display: flex;
+    align-items: center;
+
+}
+
+.topbarName{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/*sizing and rounding the pfp*/
+.topbarPfp{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}

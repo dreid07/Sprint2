@@ -1,0 +1,29 @@
+/*styling the entireity of the form input*/
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/*giving a font size and color to form label*/
+.formLabel{
+    font-size: 12px;
+    color: gray;
+}
+
+/*giving a font size padding and color to form span*/
+.formSpan{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+/*making the invalid input warning red*/
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}

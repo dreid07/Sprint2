@@ -1,0 +1,76 @@
+/*importing popins font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*creating a gradent and making the color white*/
+.Login {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(240deg, #a15d98, #e4cee0 48%, #4382bb);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContainer {
+  width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+  .loginContainer {
+    padding: 5rem;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+/*making the login button blue*/
+.loginButton {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  width: 282px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #4382bb;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.loginInput {
+  text-indent: 10px;
+  margin: 0.5rem 0;
+  width: 250px;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.signUp {
+  background: none;
+  color: white;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.loginLabel {
+  display: flex;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

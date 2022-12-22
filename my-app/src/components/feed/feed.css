@@ -1,0 +1,10 @@
+/*giving the feed the majority of the screen space*/
+.feed{
+    flex: 5;
+}
+
+/*giving the feed padding and background color*/
+.feedWrapper{
+    padding: 20px;
+    background-color: rgb(235, 214, 235);
+}

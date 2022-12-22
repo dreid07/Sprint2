@@ -1,0 +1,80 @@
+/*putting a shadow on the share component*/
+.share{
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+}
+
+/*putting padding on the share*/
+.shareWrapper{
+    padding: 10px;
+}
+
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+
+/*adding the pfp to the share*/
+.sharePfp{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/*input box for the share*/
+.shareInput{
+    border: none;
+    width: 80%;
+}
+
+/*making it so the input has no border on focus*/
+.shareInput:focus{
+    outline: none;
+}
+
+.shareHr{
+    margin: 20px;
+}
+
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+    margin-left: 20px;
+}
+
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.shareIcon{
+    font-size: 20px;
+    margin-right: 3px;
+
+}
+
+.shareOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*coloring and sizing the share button*/
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgb(236, 189, 236);
+}

@@ -1,0 +1,14 @@
+/*making the logo and top bar look pretty for the sign up and login pages*/
+.header {
+  position: fixed;
+  text-align: left;
+  top: 0;
+  left: 0;
+  text-indent: 10px;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  color: #a15d98;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}

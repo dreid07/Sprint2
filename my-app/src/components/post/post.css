@@ -1,0 +1,97 @@
+/*giving shadows and margins to the post*/
+.post{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    margin: 30px 0;
+}
+
+/*giving padding to the post*/
+.postWrapper{
+    padding: 10px;
+}
+
+/*layout for the top of the post*/
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*layout for the top left of the post*/
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+/*making the profile pic a circle and making it not strech*/
+.postProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*making the username small*/
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+/*making the date smaller*/
+.postDate{
+    font-size: 10px;
+}
+
+.postCenter{
+    margin:  20px 0;
+}
+
+/*making it so the post doesnt strech*/
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 1000px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*putting space between teh likes and comments buttons*/
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postLike{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postHeart{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/*styling the comment icon*/
+.postComment{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.postCommentCount{
+    font-size: 15px;
+}
+

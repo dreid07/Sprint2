@@ -1,0 +1,61 @@
+/*adding color and a scroll bar y overflow for the sidebar*/
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    background-color: rgb(137, 137, 253);
+}
+
+/*adding padding to the sidebar*/
+.sidebarWrapper{
+    padding: 20px;
+}
+
+/*removing the dots from the list*/
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*making space between the list items*/
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+}
+
+/*indenting the sidebar line*/
+.sidebarHr{
+    margin: 20px 0;
+}
+
+/*removing the dots from the list*/
+.sidebarFriendsList{
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    list-style: none;
+}
+
+/*making space between the list items*/
+.sidebarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/*making the pictures a circle and making them not strech*/
+.sidebarFriendImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
